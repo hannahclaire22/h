@@ -1,0 +1,26 @@
+.sidebar {
+    width: 150px;
+    background-color: #e8e8e8;
+    position: fixed;
+    height: 100%;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.18);
+    margin:0px;
+    top:0;
+    left:0;
+    overflow-y: auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #e8e8e8;
+    color:black;
+}
